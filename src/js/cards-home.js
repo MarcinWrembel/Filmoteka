@@ -5,7 +5,7 @@ import { loader } from './spinner';
 export const moviesContainer = document.querySelector('.cards-container');
 
 export function loadMovies() {
-  //get genres for movies
+  //get genres for movies...
   getGenres().then(el => {
     const genres = el;
 
